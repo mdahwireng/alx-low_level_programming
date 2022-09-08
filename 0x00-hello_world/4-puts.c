@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /** function 
- *  returning an int */
+* returning an int */
 int main(void)
 {
 	/* function returning an int */
