@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/** function returning an int **/
+/** function 
+ *  returning an int
+ */
 int main(void)
 {
 	/* function returning an int */
