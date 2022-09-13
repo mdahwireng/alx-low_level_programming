@@ -1,11 +1,26 @@
-# include "main.h"
+# include <stdio.h>
+# include <string.h>
 
 /**
- * main - check the code
- * Return: Always 0.
+ * printword - prints given word
+ * Return: void
  */
+void printword(char *word)
+{
+    int i;
+    int len;
+
+    len = strlen(word);
+
+    for (i = 0; i < len; i++)
+    {
+    putchar(word[i]);
+    }
+    putchar('\n');
+}
+
 int main(void)
 {
-	printword("_putchar\n");
-	return (0);
+    printword("_putchar");
+    return (0);
 }
