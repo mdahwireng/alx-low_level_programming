@@ -1,11 +1,17 @@
 # include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0
+ * print_alphabet - prints lowercase alphabets
+ * Return: zero
  */
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
-	return (0);	
+	char c = 'a';
+	
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
 }
