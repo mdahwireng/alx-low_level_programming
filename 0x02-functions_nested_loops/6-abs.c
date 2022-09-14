@@ -1,4 +1,5 @@
 # include "main.h"
+# include <math.h>
 
 /**
  * _abs - computes the absolute value of a given integer
@@ -7,8 +8,8 @@
  */
 int _abs(int n)
 {
-	int abs;
+	double abs;
 
-	abs = (n ** 2) ** 0.5;
-	return (abs);
+	abs = sqt(pow((double) n));
+	return ((int) abs);
 }
