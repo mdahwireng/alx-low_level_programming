@@ -9,7 +9,8 @@
 int _abs(int n)
 {
 	double abs;
+	double pow(double x, double y);
 
-	abs = sqrt(pow((double) n, 2));
+	abs = pow(pow((double) n, 2.0000), 0.50000);
 	return ((int) abs);
 }
