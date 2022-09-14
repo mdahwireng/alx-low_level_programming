@@ -10,6 +10,6 @@ int _abs(int n)
 {
 	double abs;
 
-	abs = sqt(pow((double) n));
+	abs = sqrt(pow((double) n, 2));
 	return ((int) abs);
 }
