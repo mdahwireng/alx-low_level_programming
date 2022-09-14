@@ -4,11 +4,10 @@
 /**
  * print_to_98 - prints natural numbers from a given number to 98
  * @n: the given integer
- * ReturnsK void
+ * Return: void
  */
 void print_to_98(int n)
 {
-	printf("%d",n);
 	if (n > 98)
 	{
 		for (; n > 98; n--)
@@ -17,13 +16,13 @@ void print_to_98(int n)
 		}
 		printf(", 98");
 	}
-	else 
+	else
 	{
-		if(n < 98)
+		if (n < 98)
 	{
 		for (; n < 98; n++)
 		{
-                        printf(", %d", n);
+			printf(", %d", n);
 		}
 		printf(", 98");
 	}
