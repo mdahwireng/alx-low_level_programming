@@ -8,9 +8,17 @@
  */
 int _abs(int n)
 {
-	double abs;
-	double pow(double x, double y);
-
-	abs = pow(pow((double) n, 2.0000), 0.50000);
-	return ((int) abs);
+	if (n < 0)
+	{
+		return (n * (-1));
+	}
+	else if (n == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (n);
+	}
 }
+
