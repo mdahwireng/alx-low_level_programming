@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers - prints from 0 to 9, omitting 2 and 4 followed by a new line
+ * more_numbers - prints 0 to 9, followed by a new line 10 times, follwed by a new line
  * Return: void
  */
 void more_numbers(void)
 {
 	int h;
-	int i;
-	int k;
-	int n[15];
 
 	for (h = 0; h < 10; h++)
 	{
