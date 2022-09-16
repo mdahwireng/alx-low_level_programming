@@ -1,37 +1,22 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 0 to 9, followed by a new line 10 times, follwed by a new line
- * Return: void
+ * more_numbers - prints numbers between 0 to 14
+ * 10 times.
+ * Return: no return.
  */
 void more_numbers(void)
 {
-        int h;
+	int i, ch;
 
-        for (h = 0; h < 10; h++)
-        {
-                int i;
-                int j;
-                int k;
-                int n[20];
-
-                for (i = 0; i < 10; i++)
-                {
-                        j = i + 48;
-                        n[i] = j;
-
-                        if (i < 5)
-                        {
-                                n[2*i + 10] = 49;
-                                n[2*i + 11] = j;
-                        }
-                }
-
-                for (k = 0; k < 20; k++)
-                {
-                	_putchar(n[k]);
-                }
-                _putchar('\n');
-        }
-
+	for (i = 0; i < 10; i++)
+	{
+		for (ch = 0; ch < 15; ch++)
+		{
+			if (ch >= 10)
+				_putchar((ch / 10) + 48);
+			_putchar((ch % 10) + 48);
+		}
+		_putchar('\n');
+	}
 }
