@@ -17,10 +17,11 @@ void more_numbers(void)
 
 		for (i = 0; i < 10; i++)
 		{
-			j = i + 48
+			j = i + 48;
+			n[i] = j;
+
 			if (i < 5)
 			{
-				n[i] = j;
 				n[i + 10] = j;
 			}
 		}
