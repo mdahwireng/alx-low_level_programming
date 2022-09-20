@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts_half - a function that prints half of a string, followed by a new line.
- * @s: The sting to be printed
+ * puts_half - a function that prints half
+ * @str: The sting to be printed
  * Return: void
  */
 void puts_half(char *str)
