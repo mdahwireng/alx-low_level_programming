@@ -17,11 +17,6 @@ void print_rev(char *s)
         i++;
     }
 
-    if (i > 0)
-    {
-      _putchar('\0');  
-    }
-
     for (; i>=0; i--)
     {
         _putchar(*(s + i));
